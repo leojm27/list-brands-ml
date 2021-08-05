@@ -1,0 +1,938 @@
+{
+    "site_id": "MLA",
+    "country_default_time_zone": "GMT-03:00",
+    "paging": {
+        "total": 39118,
+        "primary_results": 1000,
+        "offset": 0,
+        "limit": 50
+    },
+    "results": [
+        {
+            "id": "MLA930956845",
+            "site_id": "MLA",
+            "title": "Zanella 200 Gt2i 0km - Envíos + Financiación + Plan Canje",
+            "seller": {
+                "id": 28322907,
+                "permalink": "http://perfil.mercadolibre.com.ar/ZETA+MOTOS",
+                "registration_date": "2010-05-18T09:08:29.000-04:00",
+                "car_dealer": true,
+                "real_estate_agency": false,
+                "tags": [
+                    "car_dealer",
+                    "user_info_verified",
+                    "mshops",
+                    "messages_as_seller",
+                    "messages_as_buyer"
+                ],
+                "car_dealer_logo": "https://resources.mlstatic.com/classifieds_accounts/MLA_car_dealer/28322907_vip.jpg",
+                "seller_reputation": {
+                    "transactions": {
+                        "total": 130,
+                        "canceled": 39,
+                        "period": "historic",
+                        "ratings": {
+                            "negative": 0,
+                            "positive": 1,
+                            "neutral": 0
+                        },
+                        "completed": 91
+                    },
+                    "power_seller_status": null,
+                    "metrics": {
+                        "claims": {
+                            "rate": 0,
+                            "value": 2,
+                            "period": "365 days"
+                        },
+                        "delayed_handling_time": {
+                            "rate": 0,
+                            "value": 0,
+                            "period": "365 days"
+                        },
+                        "sales": {
+                            "period": "365 days",
+                            "completed": 91
+                        },
+                        "cancellations": {
+                            "rate": 0,
+                            "value": 0,
+                            "period": "365 days"
+                        }
+                    },
+                    "level_id": "5_green"
+                }
+            },
+            "price": 349000,
+            "prices": {
+                "id": "MLA930956845",
+                "prices": [
+                    {
+                        "id": "1",
+                        "type": "standard",
+                        "conditions": {
+                            "context_restrictions": [],
+                            "start_time": null,
+                            "end_time": null,
+                            "eligible": true
+                        },
+                        "amount": 349000,
+                        "regular_amount": null,
+                        "currency_id": "ARS",
+                        "exchange_rate_context": "DEFAULT",
+                        "metadata": {},
+                        "last_updated": "2021-07-26T18:51:04Z"
+                    }
+                ],
+                "presentation": {
+                    "display_currency": "ARS"
+                },
+                "payment_method_prices": [],
+                "differing_price_variations": [],
+                "reference_prices": [],
+                "purchase_discounts": []
+            },
+            "sale_price": null,
+            "currency_id": "ARS",
+            "available_quantity": 1,
+            "sold_quantity": 0,
+            "buying_mode": "classified",
+            "listing_type_id": "gold_premium",
+            "stop_time": "2021-08-23T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://moto.mercadolibre.com.ar/MLA-930956845-zanella-200-gt2i-0km-envios-financiacion-plan-canje-_JM",
+            "thumbnail": "http://http2.mlstatic.com/D_971620-MLA46872390467_072021-I.jpg",
+            "thumbnail_id": "971620-MLA46872390467_072021",
+            "accepts_mercadopago": true,
+            "installments": null,
+            "address": {
+                "state_id": "TUxBUEdSQWVmNTVm",
+                "state_name": "Bs.As. G.B.A. Oeste",
+                "city_id": "TUxBQ0lUVTNjNDFm",
+                "city_name": "Ituzaingó",
+                "area_code": "",
+                "phone1": ""
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "AR",
+                    "name": "Argentina"
+                },
+                "state": {
+                    "id": "AR-B",
+                    "name": "Buenos Aires"
+                },
+                "city": {
+                    "id": "TUxBQ0lUVTNjNDFm",
+                    "name": "Ituzaingó"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "seller_contact": {
+                "contact": "",
+                "other_info": "",
+                "area_code": "",
+                "phone": "",
+                "area_code2": "",
+                "phone2": "",
+                "email": "",
+                "webpage": ""
+            },
+            "location": {
+                "address_line": "",
+                "zip_code": "",
+                "subneighborhood": null,
+                "neighborhood": {
+                    "id": "TUxBQklUVTMwNjY0Ng",
+                    "name": "Ituzaingó Norte"
+                },
+                "city": {
+                    "id": "TUxBQ0lUVTNjNDFm",
+                    "name": "Ituzaingó"
+                },
+                "state": {
+                    "id": "TUxBUEdSQWVmNTVm",
+                    "name": "Bs.As. G.B.A. Oeste"
+                },
+                "country": {
+                    "id": "AR",
+                    "name": "Argentina"
+                },
+                "latitude": -34.657024,
+                "longitude": -58.675396
+            },
+            "attributes": [
+                {
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "id": "2230284",
+                            "name": "Nuevo",
+                            "struct": null,
+                            "source": 1
+                        }
+                    ],
+                    "attribute_group_id": "",
+                    "source": 1,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "attribute_group_name": ""
+                },
+                {
+                    "name": "Marca",
+                    "attribute_group_id": "FIND",
+                    "values": [
+                        {
+                            "name": "Zanella",
+                            "struct": null,
+                            "source": 3149448506392345,
+                            "id": "108389"
+                        }
+                    ],
+                    "attribute_group_name": "Ficha técnica",
+                    "source": 3149448506392345,
+                    "id": "BRAND",
+                    "value_id": "108389",
+                    "value_name": "Zanella",
+                    "value_struct": null
+                },
+                {
+                    "source": 3149448506392345,
+                    "id": "ENGINE_DISPLACEMENT",
+                    "name": "Cilindrada",
+                    "value_id": null,
+                    "attribute_group_name": "Ficha técnica",
+                    "value_name": "200 cc",
+                    "value_struct": {
+                        "number": 200,
+                        "unit": "cc"
+                    },
+                    "values": [
+                        {
+                            "struct": {
+                                "number": 200,
+                                "unit": "cc"
+                            },
+                            "source": 3149448506392345,
+                            "id": null,
+                            "name": "200 cc"
+                        }
+                    ],
+                    "attribute_group_id": "FIND"
+                },
+                {
+                    "value_struct": {
+                        "unit": "km",
+                        "number": 0
+                    },
+                    "values": [
+                        {
+                            "source": 3149448506392345,
+                            "id": null,
+                            "name": "0 km",
+                            "struct": {
+                                "number": 0,
+                                "unit": "km"
+                            }
+                        }
+                    ],
+                    "attribute_group_name": "Ficha técnica",
+                    "source": 3149448506392345,
+                    "name": "Kilómetros",
+                    "value_id": null,
+                    "attribute_group_id": "FIND",
+                    "id": "KILOMETERS",
+                    "value_name": "0 km"
+                },
+                {
+                    "attribute_group_id": "FIND",
+                    "name": "Modelo",
+                    "value_id": null,
+                    "value_name": "GT2i",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "id": null,
+                            "name": "GT2i",
+                            "struct": null,
+                            "source": 3149448506392345
+                        }
+                    ],
+                    "attribute_group_name": "Ficha técnica",
+                    "source": 3149448506392345,
+                    "id": "MODEL"
+                },
+                {
+                    "attribute_group_id": "FIND",
+                    "attribute_group_name": "Ficha técnica",
+                    "name": "Tipo de moto",
+                    "value_name": "Enduro",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "id": "381237",
+                            "name": "Enduro",
+                            "struct": null,
+                            "source": 3149448506392345
+                        }
+                    ],
+                    "id": "MOTO_TYPE",
+                    "value_id": "381237",
+                    "source": 3149448506392345
+                },
+                {
+                    "id": "VEHICLE_YEAR",
+                    "name": "Año",
+                    "value_id": null,
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "id": null,
+                            "name": "2021",
+                            "struct": null,
+                            "source": 3149448506392345
+                        }
+                    ],
+                    "source": 3149448506392345,
+                    "value_name": "2021",
+                    "attribute_group_id": "FIND",
+                    "attribute_group_name": "Ficha técnica"
+                },
+                {
+                    "value_id": "64364",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "source": 3149448506392345,
+                            "id": "64364",
+                            "name": "Nafta",
+                            "struct": null
+                        }
+                    ],
+                    "name": "Tipo de combustible",
+                    "value_name": "Nafta",
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 3149448506392345,
+                    "id": "FUEL_TYPE"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLA1763",
+            "official_store_id": null,
+            "domain_id": "MLA-MOTORCYCLES",
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_picture",
+                "immediate_payment"
+            ],
+            "order_backend": 1,
+            "use_thumbnail_id": true
+        }
+        ...
+    ],
+    "secondary_results": [],
+    "related_results": [],
+    "sort": {
+        "id": "relevance",
+        "name": "Más relevantes"
+    },
+    "available_sorts": [
+        {
+            "id": "price_asc",
+            "name": "Menor precio"
+        },
+        {
+            "id": "price_desc",
+            "name": "Mayor precio"
+        }
+    ],
+    "filters": [
+        {
+            "id": "category",
+            "name": "Categorías",
+            "type": "text",
+            "values": [
+                {
+                    "id": "MLA1763",
+                    "name": "Motos",
+                    "path_from_root": [
+                        {
+                            "id": "MLA1743",
+                            "name": "Autos, Motos y Otros"
+                        },
+                        {
+                            "id": "MLA1763",
+                            "name": "Motos"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "available_filters": [
+        {
+            "id": "official_store",
+            "name": "Tiendas oficiales",
+            "type": "text",
+            "values": [
+                {
+                    "id": "all",
+                    "name": "Todas las tiendas oficiales",
+                    "results": 4077
+                },
+                {
+                    "id": "2601",
+                    "name": "Lider Moto",
+                    "results": 1074
+                },
+                {
+                    "id": "2590",
+                    "name": "LemaMotor",
+                    "results": 89
+                },
+                {
+                    "id": "2013",
+                    "name": "Uno Motos",
+                    "results": 655
+                },
+                {
+                    "id": "2606",
+                    "name": "Moto Roma",
+                    "results": 118
+                },
+                {
+                    "id": "2379",
+                    "name": "GREEN BYKES",
+                    "results": 220
+                },
+                {
+                    "id": "2049",
+                    "name": "Grupo Sport Cars",
+                    "results": 81
+                }
+            ]
+        },
+        {
+            "id": "state",
+            "name": "Ubicación",
+            "type": "text",
+            "values": [
+                {
+                    "id": "TUxBUENBUGw3M2E1",
+                    "name": "Capital Federal",
+                    "results": 8293
+                },
+                {
+                    "id": "TUxBUEdSQWU4ZDkz",
+                    "name": "Bs.As. G.B.A. Norte",
+                    "results": 6301
+                },
+                {
+                    "id": "TUxBUEdSQXJlMDNm",
+                    "name": "Bs.As. G.B.A. Sur",
+                    "results": 5859
+                },
+                {
+                    "id": "TUxBUEdSQWVmNTVm",
+                    "name": "Bs.As. G.B.A. Oeste",
+                    "results": 4575
+                },
+                {
+                    "id": "TUxBUFpPTmFpbnRl",
+                    "name": "Buenos Aires Interior",
+                    "results": 3209
+                },
+                {
+                    "id": "TUxBUENPUmFkZGIw",
+                    "name": "Córdoba",
+                    "results": 2941
+                },
+                {
+                    "id": "TUxBUFNBTmU5Nzk2",
+                    "name": "Santa Fe",
+                    "results": 2177
+                },
+                {
+                    "id": "TUxBUENPU2ExMmFkMw",
+                    "name": "Bs.As. Costa Atlántica",
+                    "results": 1176
+                },
+                {
+                    "id": "TUxBUE1FTmE5OWQ4",
+                    "name": "Mendoza",
+                    "results": 896
+                },
+                {
+                    "id": "TUxBUENIQW8xMTNhOA",
+                    "name": "Chaco",
+                    "results": 416
+                },
+                {
+                    "id": "TUxBUEVOVHMzNTdm",
+                    "name": "Entre Ríos",
+                    "results": 408
+                },
+                {
+                    "id": "TUxBUFRVQ244NmM3",
+                    "name": "Tucumán",
+                    "results": 408
+                },
+                {
+                    "id": "TUxBUENIVXQxNDM1MQ",
+                    "name": "Chubut",
+                    "results": 312
+                },
+                {
+                    "id": "TUxBUE1JU3MzNjIx",
+                    "name": "Misiones",
+                    "results": 296
+                },
+                {
+                    "id": "TUxBUFNBTGFjMTJi",
+                    "name": "Salta",
+                    "results": 288
+                },
+                {
+                    "id": "TUxBUENPUnM5MjI0",
+                    "name": "Corrientes",
+                    "results": 256
+                },
+                {
+                    "id": "TUxBUE5FVW4xMzMzNQ",
+                    "name": "Neuquén",
+                    "results": 216
+                },
+                {
+                    "id": "TUxBUFNBTm9lOTlk",
+                    "name": "Santiago del Estero",
+                    "results": 184
+                },
+                {
+                    "id": "TUxBUFLNT29iZmZm",
+                    "name": "Río Negro",
+                    "results": 144
+                },
+                {
+                    "id": "TUxBUFNBTnM0ZTcz",
+                    "name": "San Luis",
+                    "results": 144
+                },
+                {
+                    "id": "TUxBUFNBTm5lYjU4",
+                    "name": "San Juan",
+                    "results": 136
+                },
+                {
+                    "id": "TUxBUEpVSnk3YmUz",
+                    "name": "Jujuy",
+                    "results": 112
+                },
+                {
+                    "id": "TUxBUExBWmE1OWMy",
+                    "name": "La Pampa",
+                    "results": 96
+                },
+                {
+                    "id": "TUxBUExBWmEyNzY0",
+                    "name": "La Rioja",
+                    "results": 89
+                },
+                {
+                    "id": "TUxBUENBVGFiY2Fm",
+                    "name": "Catamarca",
+                    "results": 72
+                },
+                {
+                    "id": "TUxBUEZPUmE1OTk5",
+                    "name": "Formosa",
+                    "results": 72
+                },
+                {
+                    "id": "TUxBUFNBTno3ZmY5",
+                    "name": "Santa Cruz",
+                    "results": 32
+                }
+            ]
+        },
+        {
+            "id": "price",
+            "name": "Precio",
+            "type": "range",
+            "values": [
+                {
+                    "id": "*-150000.0",
+                    "name": "Hasta $ 150.000",
+                    "results": 8961
+                },
+                {
+                    "id": "150000.0-500000.0",
+                    "name": "$150.000 a $500.000",
+                    "results": 16699
+                },
+                {
+                    "id": "500000.0-*",
+                    "name": "Más de $500.000",
+                    "results": 13456
+                }
+            ]
+        },
+        {
+            "id": "power_seller",
+            "name": "Filtro por calidad de vendedores",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Mejores vendedores",
+                    "results": 868
+                }
+            ]
+        },
+        {
+            "id": "since",
+            "name": "Filtro por fecha de comienzo",
+            "type": "text",
+            "values": [
+                {
+                    "id": "today",
+                    "name": "Publicados hoy",
+                    "results": 449
+                }
+            ]
+        },
+        {
+            "id": "until",
+            "name": "Filtro por fecha de finalización",
+            "type": "text",
+            "values": [
+                {
+                    "id": "today",
+                    "name": "Finalizan hoy",
+                    "results": 336
+                }
+            ]
+        },
+        {
+            "id": "has_video",
+            "name": "Filtro por publicaciones con video",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Publicaciones con video",
+                    "results": 11668
+                }
+            ]
+        },
+        {
+            "id": "has_pictures",
+            "name": "Filtro por publicaciones con imágenes",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Con fotos",
+                    "results": 38996
+                }
+            ]
+        },
+        {
+            "id": "seller_type",
+            "name": "Vendedor",
+            "type": "text",
+            "values": [
+                {
+                    "id": "private_seller",
+                    "name": "Dueño directo",
+                    "results": 19920
+                },
+                {
+                    "id": "car_dealer",
+                    "name": "Concesionaria",
+                    "results": 19196
+                }
+            ]
+        },
+        {
+            "id": "BRAND",
+            "name": "Marca",
+            "type": "STRING",
+            "values": [
+                {
+                    "id": "60559",
+                    "name": "Honda",
+                    "results": 6489
+                },
+                {
+                    "id": "6351",
+                    "name": "Yamaha",
+                    "results": 4662
+                },
+                {
+                    "id": "108389",
+                    "name": "Zanella",
+                    "results": 2513
+                },
+                {
+                    "id": "505265",
+                    "name": "Bajaj",
+                    "results": 2289
+                },
+                {
+                    "id": "96624",
+                    "name": "Kawasaki",
+                    "results": 1596
+                },
+                {
+                    "id": "1218170",
+                    "name": "Corven",
+                    "results": 1568
+                },
+                {
+                    "id": "82007",
+                    "name": "Motomel",
+                    "results": 1512
+                },
+                {
+                    "id": "505269",
+                    "name": "Gilera",
+                    "results": 1435
+                },
+                {
+                    "id": "1218168",
+                    "name": "Benelli",
+                    "results": 1393
+                },
+                {
+                    "id": "43943",
+                    "name": "Suzuki",
+                    "results": 994
+                },
+                {
+                    "id": "66352",
+                    "name": "BMW",
+                    "results": 945
+                },
+                {
+                    "id": "380876",
+                    "name": "KTM",
+                    "results": 917
+                },
+                {
+                    "id": "96626",
+                    "name": "Kymco",
+                    "results": 840
+                },
+                {
+                    "id": "9099246",
+                    "name": "Sunra",
+                    "results": 679
+                },
+                {
+                    "id": "1218173",
+                    "name": "Keller",
+                    "results": 483
+                },
+                {
+                    "id": "246",
+                    "name": "Mondial",
+                    "results": 469
+                },
+                {
+                    "id": "204045",
+                    "name": "Ducati",
+                    "results": 406
+                },
+                {
+                    "id": "1218166",
+                    "name": "Beta",
+                    "results": 385
+                },
+                {
+                    "id": "3183838",
+                    "name": "TVS",
+                    "results": 266
+                },
+                {
+                    "id": "416069",
+                    "name": "Guerrero",
+                    "results": 238
+                },
+                {
+                    "id": "14684",
+                    "name": "Harley-Davidson",
+                    "results": 217
+                },
+                {
+                    "id": "96622",
+                    "name": "Can-Am",
+                    "results": 210
+                },
+                {
+                    "id": "1218169",
+                    "name": "SYM",
+                    "results": 196
+                },
+                {
+                    "id": "380888",
+                    "name": "Vespa",
+                    "results": 189
+                },
+                {
+                    "id": "151888",
+                    "name": "Husqvarna",
+                    "results": 189
+                },
+                {
+                    "id": "380885",
+                    "name": "Royal Enfield",
+                    "results": 147
+                },
+                {
+                    "id": "505278",
+                    "name": "Polaris",
+                    "results": 133
+                },
+                {
+                    "id": "380874",
+                    "name": "Jawa",
+                    "results": 126
+                },
+                {
+                    "id": "1218165",
+                    "name": "Keeway",
+                    "results": 105
+                },
+                {
+                    "id": "9230",
+                    "name": "Triumph",
+                    "results": 91
+                },
+                {
+                    "id": "505277",
+                    "name": "Piaggio",
+                    "results": 70
+                },
+                {
+                    "id": "2469692",
+                    "name": "Cfmoto",
+                    "results": 70
+                },
+                {
+                    "id": "108426",
+                    "name": "Brava",
+                    "results": 63
+                },
+                {
+                    "id": "63949",
+                    "name": "Pagani",
+                    "results": 56
+                },
+                {
+                    "id": "58371",
+                    "name": "Hero",
+                    "results": 49
+                },
+                {
+                    "id": "1218171",
+                    "name": "Cerro",
+                    "results": 49
+                },
+                {
+                    "id": "505276",
+                    "name": "MV Agusta",
+                    "results": 42
+                },
+                {
+                    "id": "1218175",
+                    "name": "GAF",
+                    "results": 42
+                },
+                {
+                    "id": "5452230",
+                    "name": "Siambretta",
+                    "results": 35
+                },
+                {
+                    "id": "7358640",
+                    "name": "Nuuv",
+                    "results": 28
+                },
+                {
+                    "id": "683474",
+                    "name": "Blackstone",
+                    "results": 28
+                },
+                {
+                    "id": "4493251",
+                    "name": "Elpra",
+                    "results": 28
+                },
+                {
+                    "id": "1218188",
+                    "name": "Jianshe",
+                    "results": 28
+                }
+            ]
+        },
+        {
+            "id": "COLOR",
+            "name": "Color"
+        },
+        {
+            "id": "ENGINE_DISPLACEMENT",
+            "name": "Cilindrada"
+        },
+        {
+            "id": "FUEL_TYPE",
+            "name": "Tipo de combustible"
+        },
+        {
+            "id": "HAS_ALARM",
+            "name": "Otras características"
+        },
+        {
+            "id": "ITEM_CONDITION",
+            "name": "Condición"
+        },
+        {
+            "id": "KILOMETERS",
+            "name": "Kilómetros"
+        },
+        {
+            "id": "MODEL",
+            "name": "Modelo"
+        },
+        {
+            "id": "MOTO_TYPE",
+            "name": "Tipo de moto"
+        },
+        {
+            "id": "SALE_WITH_EXCHANGE",
+            "name": "Otras características"
+        },
+        {
+            "id": "VEHICLE_YEAR",
+            "name": "Año"
+        },
+        {
+            "id": "WITH_FACTORY_WARRANTY",
+            "name": "Otras características"
+        }
+    ]
+}
