@@ -2,4 +2,4 @@ from services.ProductService import ProductService
 
 productService = ProductService()
 
-productService.api_request()
+productService.get_api_request()
