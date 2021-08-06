@@ -2,4 +2,5 @@ from services.ProductService import ProductService
 
 productService = ProductService()
 
-productService.execute_process()
+if __name__ == '__main__':
+    productService.execute_process()

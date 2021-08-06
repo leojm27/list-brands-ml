@@ -1,5 +1,7 @@
+import concurrent.futures
 import requests
 import time
+
 from entities.Product import Product
 from entities.Brand import Brand
 
@@ -8,24 +10,39 @@ class ProductService:
 
     def execute_process(self):
         start = time.perf_counter()
-        list_product_process = []
+        url = "https://api.mercadolibre.com/sites/MLA/search"
         limit = 900
         category = "MLA1763"
         offset = 0
 
         print("Se realizaran peticiones a la API de MercadoLibre...")
-        while offset < limit:
-            query = f"https://api.mercadolibre.com/sites/MLA/search?category={category}&offset={offset}"
-            list_product_process += self.get_api_request(query)
-            offset += 50
 
-        self.list_brands(list_product_process)
+        list_query = self.get_list_query(url, offset, limit, category)
+        list_product = self.get_list_product(list_query)
 
-        count_products = len(list_product_process)
+        self.list_brands(list_product)
+
+        count_products = len(list_product)
         finish = time.perf_counter()
 
         print(f"\nCantidad de registros analizados: {count_products}")
         print(f"Tiempo de ejecucion de proceso: {round(finish - start, 2)} segundos")
+
+    def get_list_product(self, list_query):
+        list_product_process = []
+        with concurrent.futures.ProcessPoolExecutor() as executor:
+            results = executor.map(self.get_api_request, list_query)
+            for result in results:
+                list_product_process += result
+        return list_product_process
+
+    def get_list_query(self, url, offset, limit, category):
+        list_query = []
+        while offset < limit:
+            query = f"{url}?category={category}&offset={offset}"
+            list_query.append(query)
+            offset += 50
+        return list_query
 
     def get_api_request(self, query):
         results = None
@@ -34,7 +51,7 @@ class ProductService:
             resp = requests.get(query)
             data = resp.json()
             results = data['results']
-            #print(f"Petición satisfactoria.")
+            # print(f"Petición satisfactoria.")
         except Exception as e:
             print(f"Error en la Petición: {e}")
 
@@ -96,6 +113,4 @@ class ProductService:
 
         print("\n---LISTADO DE MARCAS---")
         for brand in list_by_brand:
-            # print(f"Marca: {brand.brand_name} - Promedio: {brand.average} - Total: {brand.total_price} - Q:
-            # {brand.quantity}")
             print(f"Marca: {brand.brand_name}  -  Precio Promedio: {round(brand.average)}")
