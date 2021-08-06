@@ -1,25 +1,49 @@
 import requests
+import time
 from entities.Product import Product
 from entities.Brand import Brand
 
 
 class ProductService:
 
-    def get_api_request(self):
+    def execute_process(self):
+        start = time.perf_counter()
+        list_product_process = []
+        limit = 900
+        category = "MLA1763"
+        offset = 0
+
+        print("Se realizaran peticiones a la API de MercadoLibre...")
+        while offset < limit:
+            query = f"https://api.mercadolibre.com/sites/MLA/search?category={category}&offset={offset}"
+            list_product_process += self.get_api_request(query)
+            offset += 50
+
+        self.list_brands(list_product_process)
+
+        count_products = len(list_product_process)
+        finish = time.perf_counter()
+
+        print(f"\nCantidad de registros analizados: {count_products}")
+        print(f"Tiempo de ejecucion de proceso: {round(finish - start, 2)} segundos")
+
+    def get_api_request(self, query):
+        results = None
         list_product = []
-        resp = requests.get('https://api.mercadolibre.com/sites/MLA/search?category=MLA1763')
-        data = resp.json()
-        results = data['results']
-        paging = data['paging']
+        try:
+            resp = requests.get(query)
+            data = resp.json()
+            results = data['results']
+            #print(f"Petición satisfactoria.")
+        except Exception as e:
+            print(f"Error en la Petición: {e}")
 
-        for item in results:
-            product = self.product_json(item)
-            list_product.append(product)
+        if results is not None:
+            for item in results:
+                product = self.product_json(item)
+                list_product.append(product)
 
-        self.list_brands(list_product)
-
-        # print("\nPAGING: ")
-        # print(paging)
+        return list_product
 
     def product_json(self, item):
         product_attributes = self.find_condition_brand(item['attributes'])
@@ -70,8 +94,8 @@ class ProductService:
                     brand = Brand(product.brand, product.price, 1)
                     list_by_brand.append(brand)
 
-        print("---LISTADO DE MARCAS---")
+        print("\n---LISTADO DE MARCAS---")
         for brand in list_by_brand:
             # print(f"Marca: {brand.brand_name} - Promedio: {brand.average} - Total: {brand.total_price} - Q:
             # {brand.quantity}")
-            print(f"Marca: {brand.brand_name} - Precio Promedio: {brand.average}")
+            print(f"Marca: {brand.brand_name}  -  Precio Promedio: {round(brand.average)}")
