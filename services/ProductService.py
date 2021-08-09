@@ -24,7 +24,7 @@ class ProductService:
         finish = time.perf_counter()
         print("\nSe generó listado de productos.")
         print(f"\nCantidad de registros de motos: {count_products}")
-        print(f"Tiempo de ejecucion de peticiones: {round(finish - start, 2)} segundos")
+        print(f"Tiempo de ejecución de peticiones: {round(finish - start, 2)} segundos")
         return list_product
 
     def get_list_query(self, url, offset, limit, category):
@@ -81,4 +81,3 @@ class ProductService:
         print("\n---LISTADO DE MOTOS---")
         for product in list_products:
             print(product.get_info())
-
