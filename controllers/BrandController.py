@@ -8,7 +8,7 @@ brandService = BrandService()
 class BrandController:
     def get_list_brands(self):
         list_products = productService.get_list_products()
-        list_brands = brandService.list_brands(list_products)
+        list_brands = brandService.get_list_brands(list_products)
         return list_brands
 
     def show_brand_average(self, list_brands):

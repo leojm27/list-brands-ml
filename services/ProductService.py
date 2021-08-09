@@ -6,6 +6,14 @@ from models.Product import Product
 
 
 class ProductService:
+    """
+    limit -> establece la cantidad de registros que se consultaran a la API de ML.
+    category -> ID de Categoría. En nuestro ejemplo MLA1763 para categoría de MOTOS.
+    offset -> Valor que corresponde al registro del cual se comienza a obtener los registros siguientes
+    se este modo consultando por un offset = 100, obtendremos los registros del 100 al 150. Dado que la API
+    solamente nos regresa 50 registros como maximo.
+    """
+
     def get_list_products(self):
         start = time.perf_counter()
         list_product = []
@@ -15,6 +23,9 @@ class ProductService:
         offset = 0
         list_query = self.get_list_query(url, offset, limit, category)
 
+        # utilizamos "concurrent.futures.ProcessPoolExecutor()" para realizar multiprocesamiento.
+        # ProcessPoolExecutor() nos permite ejecutar multiples tareas de forma separada.
+        # Con el método 'map' enviamos a procesar una función y un parámetro el cual es un iterable
         with concurrent.futures.ProcessPoolExecutor() as executor:
             results = executor.map(self.get_api_request, list_query)
             for result in results:
@@ -42,7 +53,6 @@ class ProductService:
             resp = requests.get(query)
             data = resp.json()
             results = data['results']
-            # print(f"Petición satisfactoria.")
         except Exception as e:
             print(f"Error en la Petición: {e}")
 

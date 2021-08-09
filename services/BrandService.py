@@ -2,21 +2,23 @@ from models.Brand import Brand
 
 
 class BrandService:
-    def list_brands(self, list_product):
+    # Generamos una lista de Marcas
+    # a partir de la lista de Productos obtenidos de la API. Filtrando solo artículos Nuevos.
+    def get_list_brands(self, list_product):
         list_by_brand = []
         for product in list_product:
             if 'Nuevo' == product.condition:
                 brand_temp = self.find_product(list_by_brand, product.brand)
 
                 if brand_temp is not None:
-                    # print("Elemento existente. Se actualiza campo 'total_price', 'quantity' y 'average'")
+                    # Elemento existente. Se actualiza campo 'total_price', 'quantity' y 'average'
                     brand_temp: Brand
                     index = list_by_brand.index(brand_temp)
                     list_by_brand[index].total_price += product.price
                     list_by_brand[index].quantity += 1
                     list_by_brand[index].average = list_by_brand[index].total_price / list_by_brand[index].quantity
                 else:
-                    # print("Se añadio elemento a la lista")
+                    # Se añade elemento a la lista de marcas
                     brand = Brand(product.brand, product.price, 1)
                     list_by_brand.append(brand)
 
