@@ -8,11 +8,11 @@ class Product:
         self.brand = brand
 
     def get_info(self):
-        info = "---Product---"
-        info += f"\nID: {self.id_product}"
-        info += f"\nTitle: {self.title}"
-        info += f"\nPrice: {self.price}"
-        info += f"\nCondition: {self.condition}"
-        info += f"\nBrand: {self.brand}"
+        info = ""
+        info += f"ID: {self.id_product}"
+        info += f" - Title: {self.title}"
+        info += f" - Price: {self.price}"
+        info += f" - Condition: {self.condition}"
+        info += f" - Brand: {self.brand}"
 
         return info

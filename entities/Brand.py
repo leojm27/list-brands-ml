@@ -7,10 +7,10 @@ class Brand:
         self.average = total_price
 
     def get_info(self):
-        info = "---Brand---"
-        info += f"\nName: {self.brand_name}"
-        info += f"\nTotal_price: {self.total_price}"
-        info += f"\nQuantity: {self.quantity}"
-        info += f"\nAverage: {self.average}"
+        info = ""
+        info += f"Name: {self.brand_name}"
+        info += f" - Total_price: {self.total_price}"
+        info += f" - Quantity: {self.quantity}"
+        info += f" - Average: {self.average}"
 
         return info
