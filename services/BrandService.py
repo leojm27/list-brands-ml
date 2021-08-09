@@ -1,4 +1,4 @@
-from entities.Brand import Brand
+from models.Brand import Brand
 
 
 class BrandService:

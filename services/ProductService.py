@@ -2,7 +2,7 @@ import concurrent.futures
 import requests
 import time
 
-from entities.Product import Product
+from models.Product import Product
 
 
 class ProductService:
